@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.employee_management.controller;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.entity.Leaves;
+import com.employee_management.entity.Employee;
+import com.employee_management.entity.Leaves;
 
 @Controller
 public class UserController {

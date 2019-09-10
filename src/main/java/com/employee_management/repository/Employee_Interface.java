@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.employee_management.repository;
 
 
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.example.demo.entity.Employee;
+import com.employee_management.entity.Employee;
 
 public interface Employee_Interface extends JpaRepository<Employee,String>{
 

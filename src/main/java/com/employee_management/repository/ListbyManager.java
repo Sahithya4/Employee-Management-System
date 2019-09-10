@@ -1,4 +1,4 @@
-package com.example.demo.repository;
+package com.employee_management.repository;
 
 import java.util.ArrayList;
 

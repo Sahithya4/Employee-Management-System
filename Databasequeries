@@ -1,0 +1,32 @@
+create database spring;
+
+// use new database 
+
+use spring;
+
+//create employee table 
+create table employee (employeeid integer not null, departmentname varchar(255), email varchar(255), employeename varchar(255), reportingmanager varchar(255), salary float not null, primary key (employeeid)) engine=InnoDB
+
+//create leaves table
+create table leaves (leaveid integer not null, reason varchar(255), enddate datetime, name varchar(255), startdate datetime, status varchar(255), employeeid integer, primary key (leaveid)) engine=InnoDB
+
+//create login table
+create table login (name varchar(255) not null, password varchar(255), role varchar(255), employeeid integer, primary key (name)) engine=InnoDB
+
+//add employeeid as foriegn key reference in leaves table
+alter table leaves add constraint FK1a9st4nrheb31ekbah3cj8pu8 foreign key (employeeid) references employee (employeeid)
+
+//add employeeid as foriegn key reference in login table
+alter table login add constraint FK2k5n2bgvuq6ns0gno0by11jd3 foreign key (employeeid) references employee (employeeid)
+
+//insert into employee table
+insert into employee values(120,"administration","admin@gmail.com","admin","admin",30000);
+
+//insert into login table
+insert into login values("admin","admin","admin",120);
+
+//insert into employee table
+insert into employee values(121,"Developer","Sahithya@gmail.com","Sahithya","Tom",40000);
+
+//insert into login table
+insert into login values("Sahithya","GRcO3+3@","user",121);

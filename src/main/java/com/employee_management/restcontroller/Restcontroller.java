@@ -1,4 +1,4 @@
-package com.example.demo.restcontroller;
+package com.employee_management.restcontroller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Login;
-import com.example.demo.repository.Loginrepository;
+import com.employee_management.entity.Login;
+import com.employee_management.repository.Loginrepository;
 
 @RestController
 @RequestMapping("valid")

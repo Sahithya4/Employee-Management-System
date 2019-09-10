@@ -1,4 +1,4 @@
-<%@ page import="java.util.*,com.example.demo.entity.*"
+<%@ page import="java.util.*,com.employee_management.entity.*"
 	language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
