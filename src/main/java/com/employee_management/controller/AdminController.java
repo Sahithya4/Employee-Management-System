@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.employee_management.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.entity.Login;
-import com.example.demo.repository.Loginrepository;
+import com.employee_management.entity.Employee;
+import com.employee_management.entity.Login;
+import com.employee_management.repository.Loginrepository;
 
 @Controller
 public class AdminController {

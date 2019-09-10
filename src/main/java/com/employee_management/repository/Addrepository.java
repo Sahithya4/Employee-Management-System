@@ -1,10 +1,11 @@
-package com.example.demo.repository;
+package com.employee_management.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Service;
-import com.example.demo.entity.Employee;
-import com.example.demo.entity.Login;
+
+import com.employee_management.entity.Employee;
+import com.employee_management.entity.Login;
 
 @EnableAutoConfiguration
 @Service

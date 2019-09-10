@@ -1,4 +1,4 @@
-package com.example.demo.restcontroller;
+package com.employee_management.restcontroller;
 
 import java.util.ArrayList;
 
@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.entity.Login;
-import com.example.demo.repository.Addrepository;
-import com.example.demo.repository.DeleteRepository;
-import com.example.demo.repository.ListSalarybetween;
-import com.example.demo.repository.ListbyManager;
-import com.example.demo.repository.ViewemployeeRepository;
+import com.employee_management.entity.Employee;
+import com.employee_management.entity.Login;
+import com.employee_management.repository.Addrepository;
+import com.employee_management.repository.DeleteRepository;
+import com.employee_management.repository.ListSalarybetween;
+import com.employee_management.repository.ListbyManager;
+import com.employee_management.repository.ViewemployeeRepository;
 
 @RestController
 @RequestMapping("admin")

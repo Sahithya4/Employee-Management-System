@@ -1,4 +1,4 @@
-package com.example.demo.restcontroller;
+package com.employee_management.restcontroller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.entity.Employee;
-import com.example.demo.entity.Leaves;
-import com.example.demo.repository.AddLeavesrepository;
-import com.example.demo.repository.ViewLeavesRepository;
+import com.employee_management.entity.Employee;
+import com.employee_management.entity.Leaves;
+import com.employee_management.repository.AddLeavesrepository;
+import com.employee_management.repository.ViewLeavesRepository;
 
 @RestController
 @RequestMapping("user")

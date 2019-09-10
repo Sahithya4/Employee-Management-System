@@ -1,9 +1,10 @@
-package com.example.demo.repository;
+package com.employee_management.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import com.example.demo.entity.Leaves;
+
+import com.employee_management.entity.Leaves;
 
 public interface Leave_Interface extends JpaRepository<Leaves, Integer> {
 
